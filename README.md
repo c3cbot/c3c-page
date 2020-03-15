@@ -1,37 +1,119 @@
-## Welcome to GitHub Pages
+# C3C
+<a href="https://discord.gg/2A4bYJu"><img alt="discord" src="https://img.shields.io/discord/591223706643070976.svg?style=flat-square&label=discord"></a> <img alt="size" src="https://img.shields.io/github/repo-size/lequanglam/c3c.svg?style=flat-square&label=size"> <img alt="code-version" src="https://img.shields.io/badge/dynamic/json?color=red&label=code%20version&prefix=v&query=%24.version&url=https%3A%2F%2Fraw.githubusercontent.com%2Flequanglam%2Fc3c%2Fmaster%2Fpackage.json&style=flat-square"> <a href="https://github.com/lequanglam/c3c/releases"> <img alt="github-version" src="https://img.shields.io/github/v/release/lequanglam/c3c?include_prereleases&label=github%20version&style=flat-square"></a> <a href="https://github.com/lequanglam/c3c/commits"> <img alt="commits" src="https://img.shields.io/github/commit-activity/m/lequanglam/c3c.svg?label=commit&style=flat-square"></a> 
+<a href="https://github.com/lequanglam/c3c/actions"><img alt="github code checking" src="https://github.com/lequanglam/c3c/workflows/Node.js%20CI/badge.svg?event=push&label=github%20code%20check&style=flat-square"></a>
 
-You can use the [editor on GitHub](https://github.com/lequanglam/c3c-page/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+A bot that can be customized using plugins. Currently supports Facebook Messenger (using fca-unofficial, a repo forked from facebook-chat-api and maintained by me) and Discord (using discord.js)
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+## Before you install
+Make sure you have Administrator/root permission on your terminal, otherwise you can't start bot. (reason: process priority).
+Also you need to install (first => last):
+1. Node.JS 12+ (of course because this thing was writen in JS) (download link <a href="#Download">here</a>)
+2. Xcode (if you are using macOS)
+3. Python 2/3 (Windows users can install this using `npm i windows-build-tools`, macOS doesn't need this because Xcode installed it)
+4. Visual C++ Build Tools (Windows users only, use `npm i windows-build-tools` to install this)
 
-### Markdown
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+List of supported/tested OS:
+- Windows 7 => 10 (x86)
+- Windows 7 => 10 (x64)
+- macOS 10.13+ (warning: lower version is not tested!)
+- Ubuntu 18+ (x86/x64)
+- Other Linux distro (x86/x64/ARM/... as long as Node supports that platform)
 
-```markdown
-Syntax highlighted code block
+OS that are currently testing:
+- iPhoneOS (jailbroken)
+- Android (rooted)
 
-# Header 1
-## Header 2
-### Header 3
+Notice for Ubuntu & macOS users: Please add `sudo` before every commands.
 
-- Bulleted
-- List
+## Install
+Download latest version (version 0.3.4, as of 22/02/2020) <a href="https://github.com/lequanglam/c3c/archive/0.3.4.zip">by clicking this</a>, and then extract it. Go to the directory where it extracted (assuming you already opened a terminal), then type: 
+```bash
+npm install
+``` 
+and you are ready to go.
 
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
+## Usage
+```bash
+npm start
 ```
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+If this is the first time you execute this command, it'll generate `config.json` file. Close that command and then configure `config.json` file.
 
-### Jekyll Themes
+After that, you can run that command again and bot will go live.
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/lequanglam/c3c-page/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+## Plugins
+- SimSimi (`/plugins/SimSimi.z3p`) => Allow users to chat with SimSimi.
+- Economy (`/plugins/Economy.z3p`) => Create an economy.
+- Economy-Income (`/plugin/Economy-Income.z3p`) => Add a way to earn money. Extends `Economy`
+- Economy-Gambling (`/plugins/Economy-Gambling.z3p`) => Add some gambling games to bot. Extends `Economy`
+- YT2MP3 (`/plugins/YT2MP3.z3p`) => Convert youtube links to MP3.
+- DenyCommand (`/plugins/DenyCommand.z3p`) => Allow admins (operators) to disable some commands.
+- eXPerienceChat (`/plugins/eXPerienceChat.z3p`) => Add XP ranking system.
 
-### Support or Contact
+## Libraries (as plugins)
+- LibBetterRandom (`/plugins/LibBetterRandom.z3p`) => Implent Mersenne Twister random algorithim for other plugins to be used. Currently used by `Economy-Income` and `Economy-Gambling`
 
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+## Localize
+This bot currently supporting 2 language: `en_US` (English) and `vi_VN` (Tiếng Việt). You can change languages in `config.json`.
+
+## Facebook test accounts
+A Facebook test account is an account just like normal accounts, however it can't contract with normal accounts. This account can be used to test and config the bot before going live.
+
+You can create one in [here](https://www.facebook.com/whitehat/accounts/).
+
+## Example config
+If you don't want the bot create a `config.json` file for you, then here is the content that bot will write into `config.json` file:
+```json
+{
+    "testmode": false,
+    "baseprefix": "[Bot]",
+    "botname": "C3CBot",
+    "enablefb": false,
+    "usefbappstate": true,
+    "fbemail": "",
+    "fbpassword": "",
+    "fbuseragent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 Safari/537.36",
+    "fblistenwhitelist": false,
+    "fblisten": [
+        "0"
+    ],
+    "enablediscord": false,
+    "discordtoken": "",
+    "discordlistenwhitelist": false,
+    "discordlisten": [
+        "0"
+    ],
+    "admins": [
+        "FB-0",
+        "DC-0"
+    ],
+    "blacklistedUsers": [
+        "FB-0",
+        "DC-0"
+    ],
+    "allowAdminUseRestartCommand": false,
+    "allowUserUsePluginsCommand": false,
+    "allowUserUseReloadCommand": false,
+    "language": "en_US",
+    "enableThanosTimeGems": true,
+    "allowEveryoneTagEvenBlacklisted": true,
+    "DEBUG_FCA_LOGLEVEL": "error",
+    "enableSSHRemoteConsole": false,
+    "sshRemoteConsoleIP": "0.0.0.0",
+    "sshRemoteConsolePort": 2004,
+    "sshUsername": "admin",
+    "sshPassword": "c3cbot@ADMIN",
+    "nsfwjsSmallModel": true
+}
+```
+
+<span name="Download"></span>
+## Node.JS 12 & 13 download link:
+- Official Node.JS webpage: https://nodejs.org/en/
+
+## Donation
+<tt>Bitcoin:  1TTCLqLHSNegudfS7Ub7dUEGxUurGs8uH</tt><br>
+<tt>Litecoin: LQLTTCLUG9g7EfnpanwPH5MFjr7jdQRzfs</tt><br>
+<tt>Dogecoin: DTTCLQLeCGDmKmwyy2Nn2SYgbLAyE662ua</tt><br>
+<tt>Ethereum: 0x11C1014fA416c585DE0BA41900056fB9407D57a2</tt><br>
