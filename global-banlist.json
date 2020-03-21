@@ -1,6 +1,10 @@
 {
-  "facebook": [
-    "100034738337866"
-  ],
+  "facebook": {
+    "100034738337866": {
+      "reason": "Dùng theo kiểu không dùng được thì vứt, kick ra?",
+      "expire": "never",
+      "noAdding": "true"
+    }
+  },
   "discord": []
 }
