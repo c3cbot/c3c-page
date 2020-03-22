@@ -2,7 +2,10 @@
   "facebook": {
     "100034738337866": {
       "reason": "Dùng theo kiểu không dùng được thì vứt, kick ra?",
-      "expire": "never",
+      "noAdding": true
+    },
+    "100007940561404": {
+      "reason": "https://i.imgur.com/3hFx7tT.png",
       "noAdding": true
     }
   },
