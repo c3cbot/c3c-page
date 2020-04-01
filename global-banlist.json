@@ -112,10 +112,6 @@
       "reason": "dính ban wave vì lọc mem",
       "noAdding": true
     },
-    "100008096321573": {
-      "reason": "dính ban wave vì \"Phu Khai Hong đã xoá bạn khỏi nhóm.\"",
-      "noAdding": true
-    },
     "100008420028755": {
       "reason": "dính ban wave vì \"You can't reply to this conversation.\"",
       "noAdding": true
