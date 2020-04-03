@@ -115,6 +115,14 @@
     "100008420028755": {
       "reason": "dính ban wave vì \"You can't reply to this conversation.\"",
       "noAdding": true
+    },
+    "100045135691723": {
+      "reason": "https://i.imgur.com/FxlabhS.png",
+      "noAdding": true
+    },
+    "100023067930145": {
+      "reason": "spam nhiều? giả bot? đây là bot thật mà. https://i.imgur.com/Eno5zoz.jpg",
+      "noAdding": true
     }
   },
   "discord": {}
