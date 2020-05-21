@@ -479,6 +479,22 @@
     "100012258552932": {
       "reason": "bị ban vì ăn cắp source code. developer chính: https://fb.me/lql.uiri",
       "noAdding": true
+    },
+    "100016533481952": {
+      "reason": "kick/add bot liên tục. https://imgur.com/a/lG3IqXe (reported by https://fb.com/100046054221757)",
+      "noAdding": true
+    },
+    "100041140590784": {
+      "reason": "add 2 bot trong cùng 1 box. https://imgur.com/a/y7ptuVa (reported by https://fb.com/100046054221757)",
+      "noAdding": true
+    },
+    "100049173382500": {
+      "reason": "add 2 bot trong cùng 1 box. https://imgur.com/a/dpDyZxc (reported by https://fb.com/100046054221757)",
+      "noAdding": true
+    },
+    "100028386665513": {
+      "reason": "vcl đây là bot thật alo. https://imgur.com/a/I0cHT1z (reported by https:/fb.com/100037997250555)",
+      "noAdding": true
     }
   },
   "discord": {}
