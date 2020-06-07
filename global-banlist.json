@@ -533,7 +533,19 @@
     },
     "2379906362085980": {
       "reason": "mát thế, dùng Bé Tư xong add thêm Bảo Long vào. https://tinyurl.com/yaungqov"
+    },
+    "100022438811248": {
+      "reason": "không có hệ thống nào là hoàn hảo, cả bot cũng vậy. https://i.imgur.com/hGMttKR.png",
+      "noAdding": true
+    },
+    "100028727385464": {
+      "reason": "nghịch cho đã rồi đổi bot liên tục :)) https://imgur.com/a/BVoSx04",
+      "noAdding": true
+    },
+    "100006633371718": {
+      "reason": "nếu như không muốn dùng Thanos, chỉ việc dùng lệnh `#thanos off` là được rồi mà ta hmm... https://i.imgur.com/7VD7iLG.png",
+      "noAdding": true
     }
-  },
+  }
   "discord": {}
 }
