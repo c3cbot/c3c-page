@@ -557,6 +557,86 @@
     "100010568624269": {
       "reason": "à thì bị ping tức quá kick luôn à :)) thôi thì ăn ban để không bị ping everyone nữa nhé. https://i.imgur.com/m90swxa.png",
       "noAdding": true
+    },
+    "100024605084255": {
+      "reason": "yep vô dụng lắm (reported by https://fb.com/100048217848970) | https://i.imgur.com/HDWNZRg.png",
+      "noAdding": true
+    },
+    "100049360488633": {
+      "reason": "lựa đúng lúc MQTT bị lỗi mà bảo nhầm người, hơn nữa đâu phải add vào là chạy ngay nhỉ 🤔 (reported by https://fb.com/100048217848970) | https://i.imgur.com/VwGDgaZ.png",
+      "noAdding": true
+    },
+    "100051405499576": {
+      "reason": "j nghe người khác xong kick (reported by https://fb.com/100048217848970) | https://i.imgur.com/is5Gm00.png",
+      "noAdding": true
+    },
+    "100026275392511": {
+      "reason": "j nghe bảo có 2 con bot khác, giờ ăn ban không còn con nào hí (reported by https://fb.com/100048217848970) | https://i.imgur.com/is5Gm00.png",
+      "noAdding": true
+    },
+    "100049589460941": {
+      "reason": "j 2 acc 1 chủ? làm gì có? cả việc nếu k muốn dùng thanos thì làm mẹ quả `/thanos off` đi. (reported by https://fb.com/100048217848970) | https://i.imgur.com/XDwcZ31.png https://i.imgur.com/37fLYhf.png",
+      "noAdding": true
+    },
+    "100024769242264": {
+      "reason": "j không gỡ được admin xong kick? (reported by https://fb.com/100048217848970) | https://i.imgur.com/aVZGQqG.png",
+      "noAdding": true
+    },
+    "100051851105294": {
+      "reason": "bot câm, trừ khi có người động :) (reported by https://fb.com/100048217848970) | https://i.imgur.com/LRPDfe5.png",
+      "noAdding": true
+    },
+    "100050457338284": {
+      "reason": "j nghe bảo lọc bot ra k báo trước (reported by https://fb.com/100048217848970) | https://i.imgur.com/HhitYIN.png",
+      "noAdding": true
+    },
+    "100049859632634": {
+      "reason": "j xúi người khác lọc bot ra (reported by https://fb.com/100048217848970) | https://i.imgur.com/HhitYIN.png",
+      "noAdding": true
+    },
+    "100049700670422": {
+      "reason": "well bot không thể định vị, trừ khi bạn cung cấp toạ độ cho việc tra cứu thời tiết (và chả ai thèm gì vị trí đó cả). à đúng rồi cả quả 'kick cho em mình fix' hay đấy, bot có phải của bạn đâu? (reported by https://fb.com/100048217848970) | https://i.imgur.com/KbxBTL4.png https://i.imgur.com/hSNBzHS.png",
+      "noAdding": true
+    },
+    "100024226746932": {
+      "reason": "nghe nói bạn kick bot ra nhỉ? bot lâu lâu bị lỗi MQTT, đâu phải thứ gì cũng hoàn hảo đâu nhỉ. (reported by https://fb.com/100048217848970) | https://i.imgur.com/vwT6J13.png",
+      "noAdding": true
+    },
+    "100047797298101": {
+      "reason": "'tôi đề nghị Trần Dy kick bot'. ừ cả hai ăn ban. (reported by https://fb.com/100048217848970) | https://i.imgur.com/vwT6J13.png",
+      "noAdding": true
+    },
+    "100027357681286": {
+      "reason": "oh well 'thôi không thích thì xoá'. (reported by https://fb.com/100048217848970) | https://i.imgur.com/aiWbJD0.png",
+      "noAdding": true
+    },
+    "100001916405713": {
+      "reason": "mình nghe nói bạn là người kick bot, nghe người khác bảo kick. (reported by https://fb.com/100048217848970) | https://i.imgur.com/aiWbJD0.png",
+      "noAdding": true
+    },
+    "100045525095966": {
+      "reason": "người khác xúi, bạn kick, bạn ăn ban. (reported by https://fb.com/100048217848970) | https://i.imgur.com/HDfsSzY.png",
+      "noAdding": true
+    },
+    "100029670529351": {
+      "reason": "lỗi có tí bên máy chủ xử lí mà đã kick bot rồi... (reported by https://fb.com/100048217848970) | https://i.imgur.com/bOGnY0p.png",
+      "noAdding": true
+    },
+    "100026952582421": {
+      "reason": "nghe người khác bảo kick, bạn kick, bạn ăn ban. (reported by https://fb.com/100048217848970) | https://i.imgur.com/uONKDGD.png",
+      "noAdding": true
+    },
+    "100022448478495": {
+      "reason": "mình ngửi thấy mùi dùng nhiều bot, nhưng không biết có phải không. (reported by https://fb.com/100048217848970) | https://i.imgur.com/uONKDGD.png",
+      "noAdding": true
+    },
+    "100048260148748": {
+      "reason": "không muốn dùng thanos? `/thanos off`. đơn giản, nhưng giờ thì ăn ban rồi. (reported by https://fb.com/100048217848970) | https://i.imgur.com/NpYEMSJ.png",
+      "noAdding": true
+    },
+    "100033808193961": {
+      "reason": "oh well, bot được lập trình sẵn vậy mà. không muốn dùng thanos? `/thanos off`. đơn giản, nhưng ăn ban rồi :)) (reported by https://fb.com/100048217848970) | https://i.imgur.com/PgXRNic.png https://i.imgur.com/6EjFcFh.png https://i.imgur.com/RGL2u2Q.png",
+      "noAdding": true
     }
   },
   "discord": {}
