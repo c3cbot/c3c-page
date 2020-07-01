@@ -705,6 +705,10 @@
     "100026526165732": {
       "reason": "spam phá bot, nhờn | https://imgur.com/a/b10r83V",
       "noAdding": true
+    },
+    "100009966315991": {
+      "reason": "vừa ăn cắp vừa la làng vừa double bot. fine. rất mát. https://imgur.com/a/8nDulWw (reported by DUCK)",
+      "noAdding": true
     }
   },
   "discord": {}
