@@ -769,10 +769,14 @@
     "100044693113094": {
       "reason": "kick bot add liên tục | https://imgur.com/9Zq4nG8",
       "noAdding": true
-	},
-	"100050824482728": {
-	  "reason": "kick nhiều lần | https://imgur.com/aTyadY4",
-	  "noAdding": true
+    },
+    "100050824482728": {
+      "reason": "kick nhiều lần | https://imgur.com/aTyadY4",
+      "noAdding": true
+    },
+    "100046886614581": {
+      "reason": "đấm",
+      "noAdding": false
     }
   },
   "discord": {}
