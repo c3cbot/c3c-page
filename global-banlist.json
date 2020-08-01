@@ -765,6 +765,10 @@
     "100046886614581": {
       "reason": "đấm",
       "noAdding": false
+    },
+    "100025496921350": {
+      "reason": "spam report | https://imgur.com/a/TSj9wXh",
+      "noAdding": true
     }
   },
   "discord": {}
