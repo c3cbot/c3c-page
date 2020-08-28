@@ -816,6 +816,10 @@
     "100019265230205": {
       "reason": "spam lệnh, cảnh cáo nhưng vẫn nhờn | http://tiny.cc/p0jqsz",
       "noAdding": true
+  },
+    "100027187894903": {
+      "reason": "add 2 bot 1 box, nhưng đằng này lại 2 box, mỗi box 2 bot, chửi admin là thằng, làm phiền,... | https://imgur.com/a/UW9C9Hr",
+      "noAdding": true
     }
   },
   "discord": {}
