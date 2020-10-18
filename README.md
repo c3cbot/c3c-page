@@ -9,7 +9,7 @@ Make sure you have Administrator/root permission on your terminal, otherwise you
 Also you need to install (first => last):
 
 1. Node.JS 12+ (of course because this thing was writen in JS) (download link <a href="#Download">here</a>)
-2. Xcode (if you are using macOS)
+2. Xcode Command Line Tools (if you are using macOS)
 3. Python 2/3 (Windows users can install this using `npm i windows-build-tools`, macOS doesn't need this because Xcode installed it)
 4. Visual C++ Build Tools (Windows users only, use `npm i windows-build-tools` to install this)
 5. make, gcc (Linux/Ubuntu only)
@@ -17,7 +17,7 @@ Also you need to install (first => last):
 
 List of supported/tested OS:
 - Windows 7+ (x86/x64)
-- macOS 10.10+ (warning: lower version is not tested!)
+- macOS 10.9+ (Works best under macOS Sierra 10.12.6 to macOS Big Sur 11)
 - Ubuntu 18+ (x86/x64)
 - Other Linux distro (x86/x64/ARM/... as long as **both** Node.JS and node-gyp support that architecture and OS)
 
