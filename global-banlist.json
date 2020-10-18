@@ -848,6 +848,10 @@
     "100047906243466": {
       "reason": "chửi bot, reported by DTH",
       "noAdding": true
+    },
+    "2478259115633004": {
+      "reason": "vcl 3 bot",
+      "noAdding": true
     }
   },
   "discord": {}
