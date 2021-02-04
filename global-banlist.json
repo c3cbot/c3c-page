@@ -892,6 +892,10 @@
     "100059288996156": {
       "reason": "Violating rules. Got banned by Admin himself.",
       "noAdding": true
+    },
+    "100058750545981": {
+      "reason": "Bán bot | https://imgur.com/7x8HwIg.png ",
+      "noAdding": true
     }
   },
   "discord": {}
