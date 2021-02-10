@@ -904,6 +904,18 @@
     "100062025679509":{
       "reason":"mạo danh bot người khác  | https://imgur.com/a/yNuw9lj",
       "noAdding": true
+    },
+    "100039389559199":{
+      "reason":"spam rp chửi admin  | imgur.com/a/2ZDueWF , imgur.com/a/KRgX8c7 , imgur.com/a/bX1JbQi , imgur.com/a/3LhqqC5",
+      "noAdding": true
+    },
+    "100012632326691":{
+      "reason":"spam rp chửi admin  | imgur.com/a/2ZDueWF , imgur.com/a/KRgX8c7 , imgur.com/a/bX1JbQi , imgur.com/a/3LhqqC5",
+      "noAdding": true
+    },
+    "100032428176917":{
+      "reason":"spam rp chửi admin  | imgur.com/a/2ZDueWF , imgur.com/a/KRgX8c7 , imgur.com/a/bX1JbQi , imgur.com/a/3LhqqC5",
+      "noAdding": true
     }
   },
   "discord": {}
