@@ -928,6 +928,10 @@
     "100062019923160":{
       "reason": "sợ quá",
       "noAdding": true
+    },
+    "100066460893698":{
+      "reason": "spam",
+      "noAdding": true
     }
   },
   "discord": {}
