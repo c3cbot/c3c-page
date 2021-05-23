@@ -932,6 +932,14 @@
     "100066460893698":{
       "reason": "spam",
       "noAdding": true
+    },
+    "100033007701645":{
+      "reason": "https://imgur.com/a/P4W21Se",
+      "noAdding": true
+    },
+    "100003943559182":{
+      "reason":"https://imgur.com/a/l3lnyqG",
+      "noAdding": true
     }
   },
   "discord": {}
